@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="100" failures="0" time="20.162">
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:04" time="3.139" tests="5">
+    <testcase classname="Service Tests Post Service Service methods should find an element" name="Service Tests Post Service Service methods should find an element" time="0.065">
+    </testcase>
+    <testcase classname="Service Tests Post Service Service methods should create a Post" name="Service Tests Post Service Service methods should create a Post" time="0.092">
+    </testcase>
+    <testcase classname="Service Tests Post Service Service methods should update a Post" name="Service Tests Post Service Service methods should update a Post" time="0.029">
+    </testcase>
+    <testcase classname="Service Tests Post Service Service methods should return a list of Post" name="Service Tests Post Service Service methods should return a list of Post" time="0.019">
+    </testcase>
+    <testcase classname="Service Tests Post Service Service methods should delete a Post" name="Service Tests Post Service Service methods should delete a Post" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:04" time="3.727" tests="12">
+    <testcase classname="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the basename when it has no sub system" name="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the basename when it has no sub system" time="0.127">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the basename when it has sub systems" name="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the basename when it has sub systems" time="0.03">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the sub system name" name="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the sub system name" time="0.021">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the subsystem when it has multiple keys" name="Component Tests JhiHealthCheckComponent baseName and subSystemName should return the subsystem when it has multiple keys" time="0.019">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent transformHealthData should flatten empty health data" name="Component Tests JhiHealthCheckComponent transformHealthData should flatten empty health data" time="0.025">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with no subsystems" name="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with no subsystems" time="0.02">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has no additional information" name="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has no additional information" time="0.042">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has additional information" name="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has additional information" time="0.024">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has additional error" name="Component Tests JhiHealthCheckComponent transformHealthData should flatten health data with subsystems at level 1, main system has additional error" time="0.027">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent getBadgeClass should get badge class" name="Component Tests JhiHealthCheckComponent getBadgeClass should get badge class" time="0.03">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent refresh should call refresh on init" name="Component Tests JhiHealthCheckComponent refresh should call refresh on init" time="0.051">
+    </testcase>
+    <testcase classname="Component Tests JhiHealthCheckComponent refresh should handle a 503 on refreshing health data" name="Component Tests JhiHealthCheckComponent refresh should handle a 503 on refreshing health data" time="0.036">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:08" time="1.53" tests="6">
+    <testcase classname="Component Tests AuditsComponent today function  should set toDate to current date" name="Component Tests AuditsComponent today function  should set toDate to current date" time="0.109">
+    </testcase>
+    <testcase classname="Component Tests AuditsComponent previousMonth function  should set fromDate to current date" name="Component Tests AuditsComponent previousMonth function  should set fromDate to current date" time="0.084">
+    </testcase>
+    <testcase classname="Component Tests AuditsComponent By default, on init should set all default values correctly" name="Component Tests AuditsComponent By default, on init should set all default values correctly" time="0.042">
+    </testcase>
+    <testcase classname="Component Tests AuditsComponent OnInit Should call load all on init" name="Component Tests AuditsComponent OnInit Should call load all on init" time="0.04">
+    </testcase>
+    <testcase classname="Component Tests AuditsComponent Create sort object Should sort only by id asc" name="Component Tests AuditsComponent Create sort object Should sort only by id asc" time="0.038">
+    </testcase>
+    <testcase classname="Component Tests AuditsComponent Create sort object Should sort by timestamp asc then by id" name="Component Tests AuditsComponent Create sort object Should sort by timestamp asc then by id" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:08" time="1.302" tests="5">
+    <testcase classname="Component Tests Post Management Component Should call load all on init" name="Component Tests Post Management Component Should call load all on init" time="0.066">
+    </testcase>
+    <testcase classname="Component Tests Post Management Component should load a page" name="Component Tests Post Management Component should load a page" time="0.046">
+    </testcase>
+    <testcase classname="Component Tests Post Management Component should re-initialize the page" name="Component Tests Post Management Component should re-initialize the page" time="0.057">
+    </testcase>
+    <testcase classname="Component Tests Post Management Component should calculate the sort attribute for an id" name="Component Tests Post Management Component should calculate the sort attribute for an id" time="0.072">
+    </testcase>
+    <testcase classname="Component Tests Post Management Component should calculate the sort attribute for a non-id attribute" name="Component Tests Post Management Component should calculate the sort attribute for a non-id attribute" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:09" time="1.221" tests="6">
+    <testcase classname="Component Tests Product Management Component Should call load all on init" name="Component Tests Product Management Component Should call load all on init" time="0.071">
+    </testcase>
+    <testcase classname="Component Tests Product Management Component should load a page" name="Component Tests Product Management Component should load a page" time="0.045">
+    </testcase>
+    <testcase classname="Component Tests Product Management Component should not load a page is the page is the same as the previous page" name="Component Tests Product Management Component should not load a page is the page is the same as the previous page" time="0.04">
+    </testcase>
+    <testcase classname="Component Tests Product Management Component should re-initialize the page" name="Component Tests Product Management Component should re-initialize the page" time="0.055">
+    </testcase>
+    <testcase classname="Component Tests Product Management Component should calculate the sort attribute for an id" name="Component Tests Product Management Component should calculate the sort attribute for an id" time="0.043">
+    </testcase>
+    <testcase classname="Component Tests Product Management Component should calculate the sort attribute for a non-id attribute" name="Component Tests Product Management Component should calculate the sort attribute for a non-id attribute" time="0.057">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:10" time="0.947" tests="5">
+    <testcase classname="Service Tests Product Service Service methods should find an element" name="Service Tests Product Service Service methods should find an element" time="0.046">
+    </testcase>
+    <testcase classname="Service Tests Product Service Service methods should create a Product" name="Service Tests Product Service Service methods should create a Product" time="0.124">
+    </testcase>
+    <testcase classname="Service Tests Product Service Service methods should update a Product" name="Service Tests Product Service Service methods should update a Product" time="0.026">
+    </testcase>
+    <testcase classname="Service Tests Product Service Service methods should return a list of Product" name="Service Tests Product Service Service methods should return a list of Product" time="0.03">
+    </testcase>
+    <testcase classname="Service Tests Product Service Service methods should delete a Product" name="Service Tests Product Service Service methods should delete a Product" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:11" time="0.929" tests="8">
+    <testcase classname="Service Tests Account Service Service methods should call /account if user is undefined" name="Service Tests Account Service Service methods should call /account if user is undefined" time="0.04">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods should call /account only once" name="Service Tests Account Service Service methods should call /account only once" time="0.022">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAuthority should return false if user is not logged" name="Service Tests Account Service Service methods hasAuthority should return false if user is not logged" time="0.019">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAuthority should return false if user is logged and has not authority" name="Service Tests Account Service Service methods hasAuthority should return false if user is logged and has not authority" time="0.018">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAuthority should return true if user is logged and has authority" name="Service Tests Account Service Service methods hasAuthority should return true if user is logged and has authority" time="0.015">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAnyAuthority should return false if user is not logged" name="Service Tests Account Service Service methods hasAnyAuthority should return false if user is not logged" time="0.024">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAnyAuthority should return false if user is logged and has not authority" name="Service Tests Account Service Service methods hasAnyAuthority should return false if user is logged and has not authority" time="0.016">
+    </testcase>
+    <testcase classname="Service Tests Account Service Service methods hasAnyAuthority should return true if user is logged and has authority" name="Service Tests Account Service Service methods hasAnyAuthority should return true if user is logged and has authority" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:10" time="1.036" tests="5">
+    <testcase classname="Component Tests Tag Management Component Should call load all on init" name="Component Tests Tag Management Component Should call load all on init" time="0.074">
+    </testcase>
+    <testcase classname="Component Tests Tag Management Component should load a page" name="Component Tests Tag Management Component should load a page" time="0.04">
+    </testcase>
+    <testcase classname="Component Tests Tag Management Component should re-initialize the page" name="Component Tests Tag Management Component should re-initialize the page" time="0.039">
+    </testcase>
+    <testcase classname="Component Tests Tag Management Component should calculate the sort attribute for an id" name="Component Tests Tag Management Component should calculate the sort attribute for an id" time="0.047">
+    </testcase>
+    <testcase classname="Component Tests Tag Management Component should calculate the sort attribute for a non-id attribute" name="Component Tests Tag Management Component should calculate the sort attribute for a non-id attribute" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:12" time="0.951" tests="5">
+    <testcase classname="Service Tests Blog Service Service methods should find an element" name="Service Tests Blog Service Service methods should find an element" time="0.024">
+    </testcase>
+    <testcase classname="Service Tests Blog Service Service methods should create a Blog" name="Service Tests Blog Service Service methods should create a Blog" time="0.021">
+    </testcase>
+    <testcase classname="Service Tests Blog Service Service methods should update a Blog" name="Service Tests Blog Service Service methods should update a Blog" time="0.019">
+    </testcase>
+    <testcase classname="Service Tests Blog Service Service methods should return a list of Blog" name="Service Tests Blog Service Service methods should return a list of Blog" time="0.015">
+    </testcase>
+    <testcase classname="Service Tests Blog Service Service methods should delete a Blog" name="Service Tests Blog Service Service methods should delete a Blog" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:11" time="1.064" tests="3">
+    <testcase classname="Component Tests MainComponent should navigate to the previous stored url post successful authentication" name="Component Tests MainComponent should navigate to the previous stored url post successful authentication" time="0.051">
+    </testcase>
+    <testcase classname="Component Tests MainComponent should not navigate to the previous stored url when authentication fails" name="Component Tests MainComponent should not navigate to the previous stored url when authentication fails" time="0.034">
+    </testcase>
+    <testcase classname="Component Tests MainComponent should not navigate to the previous stored url when no such url exists post successful authentication" name="Component Tests MainComponent should not navigate to the previous stored url when no such url exists post successful authentication" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:13" time="0.835" tests="5">
+    <testcase classname="Service Tests Tag Service Service methods should find an element" name="Service Tests Tag Service Service methods should find an element" time="0.026">
+    </testcase>
+    <testcase classname="Service Tests Tag Service Service methods should create a Tag" name="Service Tests Tag Service Service methods should create a Tag" time="0.017">
+    </testcase>
+    <testcase classname="Service Tests Tag Service Service methods should update a Tag" name="Service Tests Tag Service Service methods should update a Tag" time="0.026">
+    </testcase>
+    <testcase classname="Service Tests Tag Service Service methods should return a list of Tag" name="Service Tests Tag Service Service methods should return a list of Tag" time="0.018">
+    </testcase>
+    <testcase classname="Service Tests Tag Service Service methods should delete a Tag" name="Service Tests Tag Service Service methods should delete a Tag" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:13" time="0.909" tests="1">
+    <testcase classname="Component Tests JhiMetricsMonitoringComponent refresh should call refresh on init" name="Component Tests JhiMetricsMonitoringComponent refresh should call refresh on init" time="0.055">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:13" time="0.911" tests="3">
+    <testcase classname="Component Tests LogsComponent OnInit should set all default values correctly" name="Component Tests LogsComponent OnInit should set all default values correctly" time="0.041">
+    </testcase>
+    <testcase classname="Component Tests LogsComponent OnInit Should call load all on init" name="Component Tests LogsComponent OnInit Should call load all on init" time="0.027">
+    </testcase>
+    <testcase classname="Component Tests LogsComponent change log level should change log level correctly" name="Component Tests LogsComponent change log level should change log level correctly" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:14" time="0.898" tests="2">
+    <testcase classname="Component Tests Post Management Update Component save Should call update service on save for existing entity" name="Component Tests Post Management Update Component save Should call update service on save for existing entity" time="0.093">
+    </testcase>
+    <testcase classname="Component Tests Post Management Update Component save Should call create service on save for new entity" name="Component Tests Post Management Update Component save Should call create service on save for new entity" time="0.049">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:14" time="0.926" tests="2">
+    <testcase classname="Component Tests Blog Management Update Component save Should call update service on save for existing entity" name="Component Tests Blog Management Update Component save Should call update service on save for existing entity" time="0.058">
+    </testcase>
+    <testcase classname="Component Tests Blog Management Update Component save Should call create service on save for new entity" name="Component Tests Blog Management Update Component save Should call create service on save for new entity" time="0.054">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:14" time="1.077" tests="3">
+    <testcase classname="Component Tests JhiConfigurationComponent OnInit should set all default values correctly" name="Component Tests JhiConfigurationComponent OnInit should set all default values correctly" time="0.041">
+    </testcase>
+    <testcase classname="Component Tests JhiConfigurationComponent OnInit Should call load all on init" name="Component Tests JhiConfigurationComponent OnInit Should call load all on init" time="0.038">
+    </testcase>
+    <testcase classname="Component Tests JhiConfigurationComponent keys method should return the keys of an Object" name="Component Tests JhiConfigurationComponent keys method should return the keys of an Object" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:15" time="0.962" tests="1">
+    <testcase classname="Component Tests Post Management Delete Component confirmDelete Should call delete service on confirmDelete" name="Component Tests Post Management Delete Component confirmDelete Should call delete service on confirmDelete" time="0.075">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:15" time="1.032" tests="2">
+    <testcase classname="Component Tests Product Management Update Component save Should call update service on save for existing entity" name="Component Tests Product Management Update Component save Should call update service on save for existing entity" time="0.068">
+    </testcase>
+    <testcase classname="Component Tests Product Management Update Component save Should call create service on save for new entity" name="Component Tests Product Management Update Component save Should call create service on save for new entity" time="0.046">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:16" time="0.82" tests="1">
+    <testcase classname="Component Tests Blog Management Delete Component confirmDelete Should call delete service on confirmDelete" name="Component Tests Blog Management Delete Component confirmDelete Should call delete service on confirmDelete" time="0.073">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:16" time="0.898" tests="2">
+    <testcase classname="Component Tests Tag Management Update Component save Should call update service on save for existing entity" name="Component Tests Tag Management Update Component save Should call update service on save for existing entity" time="0.077">
+    </testcase>
+    <testcase classname="Component Tests Tag Management Update Component save Should call create service on save for new entity" name="Component Tests Tag Management Update Component save Should call create service on save for new entity" time="0.052">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:17" time="0.748" tests="1">
+    <testcase classname="Component Tests Product Management Delete Component confirmDelete Should call delete service on confirmDelete" name="Component Tests Product Management Delete Component confirmDelete Should call delete service on confirmDelete" time="0.076">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:17" time="0.77" tests="1">
+    <testcase classname="Component Tests Blog Management Component Should call load all on init" name="Component Tests Blog Management Component Should call load all on init" time="0.063">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:18" time="1.042" tests="1">
+    <testcase classname="Component Tests Tag Management Delete Component confirmDelete Should call delete service on confirmDelete" name="Component Tests Tag Management Delete Component confirmDelete Should call delete service on confirmDelete" time="0.123">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:18" time="1.217" tests="1">
+    <testcase classname="Component Tests Tag Management Detail Component OnInit Should call load all on init" name="Component Tests Tag Management Detail Component OnInit Should call load all on init" time="0.268">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:19" time="0.731" tests="3">
+    <testcase classname="Service Tests Logs Service Service methods should call correct URL" name="Service Tests Logs Service Service methods should call correct URL" time="0.029">
+    </testcase>
+    <testcase classname="Service Tests Logs Service Service methods should return Metrics" name="Service Tests Logs Service Service methods should return Metrics" time="0.018">
+    </testcase>
+    <testcase classname="Service Tests Logs Service Service methods should return Thread Dump" name="Service Tests Logs Service Service methods should return Thread Dump" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:19" time="0.996" tests="1">
+    <testcase classname="Component Tests Blog Management Detail Component OnInit Should call load all on init" name="Component Tests Blog Management Detail Component OnInit Should call load all on init" time="0.058">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:20" time="0.762" tests="1">
+    <testcase classname="Component Tests Post Management Detail Component OnInit Should call load all on init" name="Component Tests Post Management Detail Component OnInit Should call load all on init" time="0.067">
+    </testcase>
+  </testsuite>
+  <testsuite name="Component Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:20" time="0.791" tests="1">
+    <testcase classname="Component Tests Product Management Detail Component OnInit Should call load all on init" name="Component Tests Product Management Detail Component OnInit Should call load all on init" time="0.062">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:21" time="0.668" tests="3">
+    <testcase classname="Service Tests Logs Service Service methods should call correct URL" name="Service Tests Logs Service Service methods should call correct URL" time="0.031">
+    </testcase>
+    <testcase classname="Service Tests Logs Service Service methods should get the config" name="Service Tests Logs Service Service methods should get the config" time="0.02">
+    </testcase>
+    <testcase classname="Service Tests Logs Service Service methods should get the env" name="Service Tests Logs Service Service methods should get the env" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:21" time="0.632" tests="2">
+    <testcase classname="Service Tests Logs Service Service methods should call correct URL" name="Service Tests Logs Service Service methods should call correct URL" time="0.022">
+    </testcase>
+    <testcase classname="Service Tests Logs Service Service methods should change log level" name="Service Tests Logs Service Service methods should change log level" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="Service Tests" errors="0" failures="0" skipped="0" timestamp="2019-11-16T16:10:22" time="0.619" tests="3">
+    <testcase classname="Service Tests Audits Service Service methods should call correct URL" name="Service Tests Audits Service Service methods should call correct URL" time="0.022">
+    </testcase>
+    <testcase classname="Service Tests Audits Service Service methods should return Audits" name="Service Tests Audits Service Service methods should return Audits" time="0.016">
+    </testcase>
+    <testcase classname="Service Tests Audits Service Service methods should propagate not found response" name="Service Tests Audits Service Service methods should propagate not found response" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>
