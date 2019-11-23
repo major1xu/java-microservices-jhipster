@@ -23,7 +23,7 @@ services:
       - JHIPSTER_METRICS_LOGS_ENABLED=true
       - JHIPSTER_METRICS_LOGS_REPORTFREQUENCY=60
       # For Keycloak to work, you need to add '127.0.0.1 keycloak' to your hosts file
-      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=https://dev-879975-admin.okta.com/oauth2/default
+      - SPRING_SECURITY_OAUTH2_CLIENT_PROVIDER_OIDC_ISSUER_URI=http://keycloak:9080/auth/realms/jhipster
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_ID=jhipster-registry
       - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_OIDC_CLIENT_SECRET=jhipster-registry
     ports:
