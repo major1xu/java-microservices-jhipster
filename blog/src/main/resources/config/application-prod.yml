@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     io.github.jhipster: INFO
-    com.okta.developer.blog: DEBUG
+    com.okta.developer.blog: INFO
 
 eureka:
   instance:
